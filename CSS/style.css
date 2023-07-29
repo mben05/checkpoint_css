@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+*{padding:0;
+    margin: 0;
+    box-sizing : border-box
+     }
+
+ 
+ body{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    height: 100vh;
+    font-family: 'Lexend Deca', sans-serif;}
+
+.carter{display:inline-block;
+    width: 250px;
+     height: 400px;}
+     
+     
+.carter-sedans { background-color: hsl(31, 77%, 52%);
+                 border-top-left-radius: 0.7em ;
+                 border-bottom-left-radius: 0.7em;
+                 padding: 35px; }
+
+.carter-suvs { background-color: hsl(184, 100%, 22%);
+                padding: 35px; }
+
+.carter-luxury{background-color: hsl(179, 100%, 13%);
+               border-top-right-radius: 0.7em ;
+               border-bottom-right-radius: 0.7em;
+               padding: 35px;}
+
+.carter-para{ margin-top: 1.7rem;
+              font-size: 15px;
+              color: hsl(0, 0%, 100%, 0.75)}
+
+.carter-title{margin-top: 1rem;
+              color: hsl(0, 0%, 95%);
+            font-family: 'Big Shoulders Display',cursive;}
+
+.foot{ margin-top: 4rem  ;
+    background-color: hsl(0, 0%, 95%);
+    padding: 0.7rem;
+    width: 70%;
+    border-radius: 1.5rem;
+     text-align: center;}
+     
+
+
+.btn-sedans{ color: hsl(31, 77%, 52%)}
+
+.btn-suvs{color: hsl(184, 100%, 22%);}
+
+
+.btn-luxury{color:hsl(179, 100%, 13%);}
+
+
+
+
+
+
